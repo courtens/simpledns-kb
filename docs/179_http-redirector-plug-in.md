@@ -15,7 +15,7 @@ The redirect-to URL can be either relative (requested path/query appended) or an
 This can be used for example to redirect to a web-server running on a dynamic IP address (redirecting to a host name updated by a dynamic DNS service) and/or to redirect to a web-server on a non-standard port number (like "http://www.example.com:8000"). These types of redirection services are often offered by domain name registrars and resellers.
 
 Another way that this is often used is for "expired accounts".  
-For example when an ISP's customer has canceled his web-hosting services, but his domain name is still pointing to the ISP's web-server. In this this scenario, the ISP might redirect such domain names to a central web-site informing visitors why the web-site is unavailable, perhaps a bit of promotion for the ISP etc.
+For example when an ISP's customer has canceled his web-hosting services, but his domain name is still pointing to the ISP's web-server. In this scenario, the ISP might redirect such domain names to a central web-site informing visitors why the web-site is unavailable, perhaps a bit of promotion for the ISP etc.
 
 IIS and other web-server applications of course include similar redirection functions, and you can do more advanced redirection through server side scripting (see [Web redirection and "cloaking" (Classis ASP script)](/kb/148)). This plug-in sits somewhere in between. It offers more options (cloaking and URL substitutions) than the built-in IIS functions, yet it requires no programming / scripting.  
 It also allows you to do HTTP redirection in scenarios where a full web-server is not otherwise needed. And finally, it may simply be more convenient to manage this along with the rest of your DNS data.
